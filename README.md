@@ -14,6 +14,7 @@ e. accessed_from_mobile - boolean
 f. browser_code - int
 
 Tasks
+
 Add tasks in the DAG file to download the file, read the file, and extract the fields timestamp and visitorid from the web-server-access-log.txt.
 Capitalize the visitorid for all the records and store it in a local variable.
 Load the data into a new file capitalized.txt.
