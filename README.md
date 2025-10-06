@@ -16,12 +16,21 @@ f. browser_code - int
 Tasks
 
 Add tasks in the DAG file to download the file, read the file, and extract the fields timestamp and visitorid from the web-server-access-log.txt.
+
 Capitalize the visitorid for all the records and store it in a local variable.
+
 Load the data into a new file capitalized.txt.
+
 Create the imports block.
+
 Create the DAG Arguments block. You can use the default settings.
+
 Create the DAG definition block. The DAG should run daily.
+
 Create the tasks extract, transform, and load to call the Python script.
+
 Create the task pipeline block.
+
 Submit the DAG.
+
 Verify if the DAG is submitted.# ETL-Server-Access-Log-Processing
